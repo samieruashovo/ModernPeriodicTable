@@ -1,1 +1,1 @@
-# ModernPeriodicTable
+If you are having trouble getting information about the element by clicking, then just uncomment the Input(); function and add the information about the elements into file. Then you should be good to go!
