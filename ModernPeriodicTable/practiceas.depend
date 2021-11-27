@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1637769224 source:d:\dell\documents\cc++\practiceas\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+	<windows.h>
+
+1637769224 source:d:\dell\documents\cc++\modernperiodictable\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+	<windows.h>
+
