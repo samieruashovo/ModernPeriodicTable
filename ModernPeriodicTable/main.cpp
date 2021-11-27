@@ -33,7 +33,7 @@ long int recsize;
 void element(int i, int j);
 void frame();
 void display();
-void input();
+//void input();
 void output();
 int main()
 {
@@ -56,7 +56,7 @@ int main()
 
     return 0;
 }
-
+/*
 void input()
 {
     cout <<" \n  ::::::::::::::::::::::::::  Input element info :::::::::::::::::::::::::: \n";
@@ -100,16 +100,17 @@ void input()
         if (another == 'n')
         {
         }
-        printf("\nEnter name: ");
-        scanf("%s", &a.aname);
-        printf("\nEnter  Atomic Radius(pm): ");
-        scanf("%d", &a.aen);
-        printf("\nEnter symbol:");
-        scanf("%s", &a.symbol);
+       cout<< "Enter name: ";
+       cin>> a.aname ;
+       cout << "Enter  Atomic Radius(pm): ";
+       cin>> a.aen;
+       cout<< "Enter symbol:";
+       cin>> a.symbol;
 
         fwrite( & a, recsize, 1, fp); /// write the record in the file
 
-        printf("\nAdd another recording(y/n) ");
+       cout <<"\nAdd another recording(y/n)";
+       cout <<"\npress e for exit";
         fflush(stdin);
         another = getche();
         if(another=='e')
@@ -120,7 +121,7 @@ void input()
     }
 
 }
-
+*/
 
 void output()
 {
